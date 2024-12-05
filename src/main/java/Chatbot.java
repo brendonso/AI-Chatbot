@@ -25,8 +25,7 @@ others	UnexpectedStatusCodeException
 
 public class Chatbot {
 
-    private static final String API_KEY = ""; 
-    //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
+    private static final String API_KEY = "";
     OkHttpClient client = new OkHttpClient();
     public static final MediaType JSON = MediaType.get("application/json");
 
