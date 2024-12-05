@@ -9,6 +9,8 @@ import okhttp3.Request;
 import okhttp3.RequestBody;
 import okhttp3.Response;
 /*
+This project is designed for OpenAI GPT-4 keys, so keys/endpoints for Azure/google api's may not work
+
 400	BadRequestException
 401	AuthenticationException
 403	PermissionDeniedException
@@ -25,7 +27,7 @@ others	UnexpectedStatusCodeException
 
 public class Chatbot {
 
-    private static final String API_KEY = "";
+    private static final String API_KEY = ""; 
     OkHttpClient client = new OkHttpClient();
     public static final MediaType JSON = MediaType.get("application/json");
 
