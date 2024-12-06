@@ -1,3 +1,5 @@
+//Copyright Brendon So 2024
+
 import java.io.IOException;
 import java.util.Scanner;
 
